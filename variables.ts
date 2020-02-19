@@ -24,6 +24,7 @@ console.log(`
 // 2) array
 // 3) object
 
+// array
 const strArray: string[] = ['ankesh', 'govind']; 
 const numArray: number[] = [56, 15, 96, 69];
 const boolArray: boolean[] = [true, false];
@@ -40,7 +41,6 @@ console.log(`
 
 
 // object
-
 let person: {name: string, age: number, gender: string, phone: string} = {
     name: 'ankesh',
     age: 22,
@@ -51,7 +51,7 @@ let person: {name: string, age: number, gender: string, phone: string} = {
 console.log(`
 
     ****************
-    
+
     Name:   ${person.name}
     Age:    ${person.age}
     Gender: ${person.gender}
